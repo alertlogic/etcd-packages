@@ -1,5 +1,5 @@
 NAME=etcd
-VERSION=0.4.6
+VERSION=2.0.0-rc.1
 TARBALL=$(NAME)-v$(VERSION)-Linux-amd64.tar.gz
 TARDIR=$(NAME)-v$(VERSION)-linux-amd64
 DOWNLOAD=https://github.com/coreos/etcd/releases/download/v$(VERSION)/$(TARBALL)

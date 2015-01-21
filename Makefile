@@ -19,7 +19,7 @@ etcd_$(VERSION)_amd64.deb: $(TARDIR)
 	cd $(TARDIR)/ && \
 	fpm -s dir -t deb -v $(VERSION) -n $(NAME) -a amd64 \
 	--prefix=/usr/bin/ \
-	--deb-upstart=../init-scripts/debian/etc/init/etcd.conf \
+	--deb-upstart=../init-scripts/debian/etc/init/etcd \
 	--url "https://github.com/coreos/etcd" \
         --description "$(DESCRIPTION)" \
 	--deb-user root --deb-group root \
